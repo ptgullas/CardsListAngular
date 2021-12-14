@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/* .container {width: 60%;} */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900); 
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.orange {background-color: orange;}
+.orangered {background-color: orangered;}
+.orangered-content {color:cornsilk; font-size: 18px; font-family: 'Lato', Verdana, sans-serif; }
+.gold {background-color: gold; outline:darkmagenta; outline-width: 2px;}
+.gold-content {color:darkblue; font-size: 18px; font-family: 'Leckerli One', Verdana, sans-serif; }
+.darkorange {background-color: darkorange;}
